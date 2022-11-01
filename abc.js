@@ -11,4 +11,4 @@ c.split("\n").forEach(function (r) {
        var cc = eval(`"${ss[0]}"`)
        fs.writeFileSync("./n.py", c.replace(ss[0], cc))
     }
-}) 
+}); 
