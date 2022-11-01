@@ -3,7 +3,7 @@ const file = "./n.py"
 
 var c = fs.readFileSync(file).toString()
 
-var regex = /\\x./g
+var regex = /\\x../g
 
 c.split("\n").forEach(function (r) {
     var ss = regex.exec(r) || [null]
